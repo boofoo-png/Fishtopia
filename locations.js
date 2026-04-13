@@ -1,32 +1,24 @@
-let showAllButton = document.querySelector("#showAllButton");
-let showTownButton = document.querySelector("#showTownButton");
-let showFishingButton = document.querySelector("#showFishingButton");
-let showSpecialButton = document.querySelector("#showSpecialButton");
+let filterButtons = document.querySelectorAll(".filter-button");
+let locationSections = document.querySelectorAll(".sectionContainer");
+let selectedSection;
 
-let townLocations = document.querySelector("#townLocations");
-let fishingLocations = document.querySelector("#fishingLocations");
-let specialLocations = document.querySelector("#specialLocations");
+filterButtons.forEach(function (filterButton) {
+    filterButton.addEventListener("click", function () {
+        let associatedElement = this.dataset.associatedElement;
 
-showAllButton.addEventListener("click", function () {
-    townLocations.classList.remove("hiddenSection");
-    fishingLocations.classList.remove("hiddenSection");
-    specialLocations.classList.remove("hiddenSection");
-});
+        if (associatedElement === "all") {
+            locationSections.forEach(function (section) {
+                section.classList.remove("hiddenSection");
+            });
 
-showTownButton.addEventListener("click", function () {
-    townLocations.classList.remove("hiddenSection");
-    fishingLocations.classList.add("hiddenSection");
-    specialLocations.classList.add("hiddenSection");
-});
+            selectedSection = null;
+        } else {
+            locationSections.forEach(function (section) {
+                section.classList.add("hiddenSection");
+            });
 
-showFishingButton.addEventListener("click", function () {
-    townLocations.classList.add("hiddenSection");
-    fishingLocations.classList.remove("hiddenSection");
-    specialLocations.classList.add("hiddenSection");
-});
-
-showSpecialButton.addEventListener("click", function () {
-    townLocations.classList.add("hiddenSection");
-    fishingLocations.classList.add("hiddenSection");
-    specialLocations.classList.remove("hiddenSection");
+            selectedSection = document.querySelector(associatedElement);
+            selectedSection.classList.remove("hiddenSection");
+        }
+    });
 });

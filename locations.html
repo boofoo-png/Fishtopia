@@ -24,10 +24,26 @@
         <main class="pageContent">
             <div class="filterContainer">
                 <h2 class="sectionTitle">Browse Locations</h2>
-                <button id="showAllButton">All</button>
-                <button id="showTownButton">Town</button>
-                <button id="showFishingButton">Fishing Areas</button>
-                <button id="showSpecialButton">Special</button>
+                <button
+                    class="filter-button"
+                    data-associated-element="all">
+                    All
+                </button>
+                <button
+                    class="filter-button"
+                    data-associated-element="#townLocations">
+                    Town
+                </button>
+                <button
+                    class="filter-button"
+                    data-associated-element="#fishingLocations">
+                    Fishing Areas
+                </button>
+                <button
+                    class="filter-button"
+                    data-associated-element="#specialLocations">
+                    Special
+                </button>
             </div>
 
             <div
@@ -140,10 +156,9 @@
                     <div class="locationCard">
                         <h3 class="locationName">Town Pond</h3>
                         <p class="sectionText locationDescription">
-                            Town Pond is one of the starter fishing areas where
-                            the dock is located. It is meant to ease players
-                            into the fishing loop with more common fish and
-                            lower difficulty.
+                            Town Pond is one of the starter fishing areas. It is
+                            meant to ease players into the fishing loop with
+                            more common fish and lower difficulty.
                         </p>
                         <p class="sectionText locationDescription">
                             This area is available early and helps players learn
