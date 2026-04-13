@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #1f2f38;
+    background-color: #f7f9f8;
+}
+
+h1,
+h2,
+h3 {
+    color: #17313d;
+    margin-top: 0;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 8px 12px;
+    margin: 6px 6px 0 0;
+}
+
+.pageHeader {
+    text-align: center;
+    padding: 24px 16px;
+}
+
+.pageTitle {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.pageIntro {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.pageContent {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
