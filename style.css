@@ -2,7 +2,7 @@ body {
     background-color: rgb(107, 206, 255);
 }
 
-.pageTitleContainer {
+.page-title-container {
     filter: drop-shadow(0px 7px 7px rgb(5, 2, 43));
     border:
         7px solid,
@@ -19,7 +19,7 @@ body {
     margin-bottom: 1%;
 }
 
-.navContainer {
+.nav-container {
     filter: drop-shadow(0px 7px 7px rgb(5, 2, 43));
     display: flex;
     justify-content: space-around;
@@ -35,7 +35,7 @@ body {
     margin-bottom: 5%;
 }
 
-.navItem {
+.nav-item {
     filter: drop-shadow(0px 4px 4px rgb(33, 1, 1));
     display: inline-flex;
     background-color: rgb(239, 98, 23);
@@ -48,7 +48,7 @@ body {
     margin-right: 2cqw;
 }
 
-.sectionContainer {
+.section-container {
     filter: drop-shadow(0px 7px 7px rgb(5, 2, 43));
     border:
         7px solid,
