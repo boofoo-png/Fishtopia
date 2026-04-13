@@ -37,3 +37,68 @@ btnFinn.addEventListener("click", function () {
     sectionNPCs.classList.add("hiddenSection");
     sectionKittizens.classList.add("hiddenSection");
 });
+
+// Show Jimbo button
+
+btnJimbo.addEventListener("click", function () {
+    sectionFinn.classList.add("hiddenSection");
+    sectionNPCs.classList.remove("hiddenSection");
+    sectionKittizens.classList.add("hiddenSection");
+    cardJimbo.classList.remove("hiddenSection");
+    cardMayor.classList.add("hiddenSection");
+    cardClive.classList.add("hiddenSection");
+    cardBank.classList.add("hiddenSection");
+    cardMystery.classList.add("hiddenSection");
+});
+// show mayor button
+btnMayor.addEventListener("click", function () {
+    sectionFinn.classList.add("hiddenSection");
+    sectionNPCs.classList.remove("hiddenSection");
+    sectionKittizens.classList.add("hiddenSection");
+    cardJimbo.classList.add("hiddenSection");
+    cardMayor.classList.remove("hiddenSection");
+    cardClive.classList.add("hiddenSection");
+    cardBank.classList.add("hiddenSection");
+    cardMystery.classList.add("hiddenSection");
+});
+// show professor clive button
+btnClive.addEventListener("click", function () {
+    sectionFinn.classList.add("hiddenSection");
+    sectionNPCs.classList.remove("hiddenSection");
+    sectionKittizens.classList.add("hiddenSection");
+    cardJimbo.classList.add("hiddenSection");
+    cardMayor.classList.add("hiddenSection");
+    cardClive.classList.remove("hiddenSection");
+    cardBank.classList.add("hiddenSection");
+    cardMystery.classList.add("hiddenSection");
+});
+
+// show bank teller
+btnBank.addEventListener("click", function () {
+    sectionFinn.classList.add("hiddenSection");
+    sectionNPCs.classList.remove("hiddenSection");
+    sectionKittizens.classList.add("hiddenSection");
+    cardJimbo.classList.add("hiddenSection");
+    cardMayor.classList.add("hiddenSection");
+    cardClive.classList.add("hiddenSection");
+    cardBank.classList.remove("hiddenSection");
+    cardMystery.classList.add("hiddenSection");
+});
+//  show mystery cat
+btnMystery.addEventListener("click", function () {
+    sectionFinn.classList.add("hiddenSection");
+    sectionNPCs.classList.remove("hiddenSection");
+    sectionKittizens.classList.add("hiddenSection");
+    cardJimbo.classList.add("hiddenSection");
+    cardMayor.classList.add("hiddenSection");
+    cardClive.classList.add("hiddenSection");
+    cardBank.classList.add("hiddenSection");
+    cardMystery.classList.remove("hiddenSection");
+});
+
+// show kittizens
+btnKittizens.addEventListener("click", function () {
+    sectionFinn.classList.add("hiddenSection");
+    sectionNPCs.classList.add("hiddenSection");
+    sectionKittizens.classList.remove("hiddenSection");
+});
