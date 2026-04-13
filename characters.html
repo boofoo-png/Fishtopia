@@ -8,47 +8,89 @@
     </head>
     <body>
         <!-- Header and Nav -->
-        <div class="headerContainer">
+        <div class="header-container">
             <h1 class="header">Fishtopia</h1>
         </div>
-        <div class="navContainer">
+        <div class="nav-container">
             <a href="characters.html" class="navBtn">Characters</a>
             <a href="items.html" class="navBtn">Items</a>
             <a href="index.html" class="navBtn">Homepage</a>
             <a href="fish.html" class="navBtn">Fish</a>
         </div>
         <!-- Character Buttons -->
-        <div class="filterContainer">
-            <button class="filterBtn active" id="btnAll">All</button>
-            <button class="filterBtn" id="btnFinn">Finn Gill</button>
-            <button class="filterBtn" id="btnJimbo">Jimbo</button>
-            <button class="filterBtn" id="btnMayor">Mayor Whiskers</button>
-            <button class="filterBtn" id="btnClive">Professor Clive</button>
-            <button class="filterBtn" id="btnBank">Bank Teller</button>
-            <button class="filterBtn" id="btnMystery">Mysterious Cat</button>
-            <button class="filterBtn" id="btnKittizens">Kittizens</button>
+        <div class="filter-container">
+            <button class="filter-button active" id="btn-all">All</button>
+            <!-- <button class="filterBtn" id="btnFinn">Finn Gill</button> -->
+            <button
+                class="button filter-button"
+                data-associated-element=".finn--container"
+            >
+                Finn
+            </button>
+            <!-- <button class="filterBtn" id="btnJimbo">Jimbo</button> -->
+            <button
+                class="button filter-button"
+                data-associated-element=".jimbo--container"
+            >
+                Jimbo
+            </button>
+            <!-- <button class="filterBtn" id="btnMayor">Mayor Whiskers</button> -->
+            <button
+                class="button filter-button"
+                data-associated-element=".mayor--container"
+            >
+                Mayor Whiskers
+            </button>
+            <!-- <button class="filterBtn" id="btnClive">Professor Clive</button> -->
+            <button
+                class="button filter-button"
+                data-associated-element=".clive--container"
+            >
+                Professor Clive
+            </button>
+            <!-- <button class="filterBtn" id="btnBank">Bank Teller</button> -->
+            <button
+                class="button filter-button"
+                data-associated-element=".bank--container"
+            >
+                Bank Teller
+            </button>
+            <!-- <button class="filterBtn" id="btnMystery">Mysterious Cat</button> -->
+            <button
+                class="button filter-button"
+                data-associated-element=".mystery--container"
+            >
+                Mysterious Cat
+            </button>
+            <!-- <button class="filterBtn" id="btnKittizens">Kittizens</button> -->
+            <button
+                class="button filter-button"
+                data-associated-element=".kittizens--container"
+            >
+                Finn
+            </button>
         </div>
 
         <!-- Character Content -->
         <main>
-            <h3 class="sectionTitle">Characters</h3>
-            <hr class="pageDivider" />
+            <h3 class="section-title">Characters</h3>
+            <hr class="page-divider" />
 
             <!-- Finn Gill -->
 
-            <div class="sectionContainer" id="sectionFinn">
-                <h3 class="sectionTitle">Main Character</h3>
-                <div class="characterContainer">
-                    <div class="characterCard">
-                        <div class="characterPortrait">
+            <div class="section-container" id="sectionFinn">
+                <h3 class="section-title">Main Character</h3>
+                <div class="character-container finn--container">
+                    <div class="character-card">
+                        <div class="character-portrait">
                             <img
-                                class="characterImage"
+                                class="character-image"
                                 src=""
                                 alt="Finn Gill sprite"
                             />
                         </div>
-                        <p class="charachterName">Finn Gill</p>
-                        <p class="sectionText characterBio">
+                        <p class="charachter-name">Finn Gill</p>
+                        <p class="section-text character-bio">
                             The player character and protagonist of Fishtopia.
                             Originally from a busy city, Finn had little
                             connection to their family history until receiveing
@@ -79,17 +121,20 @@
                 <hr class="pageDivider" />
 
                 <!-- Fisherman Cat -->
-                <div class="characterContainer" id="cardJimbo">
-                    <div class="characterCard">
-                        <div class="characterPortrait">
+                <div
+                    class="character-container jimbo--container"
+                    id="card-jimbo"
+                >
+                    <div class="character-card">
+                        <div class="character-portrait">
                             <img
-                                class="characterImage"
+                                class="character-image"
                                 src=""
                                 alt="Jimbo sprite"
                             />
                         </div>
-                        <p class="characterName">Jimbo</p>
-                        <p class="sectionText characterBio">
+                        <p class="character-name">Jimbo</p>
+                        <p class="section-text character-bio">
                             Jimbo is a retired fisherman and Finn's late
                             grandfather's next door neighbour on Purradise
                             Island. A long time friend of Finn's grandfather,
@@ -105,17 +150,20 @@
                 </div>
 
                 <!-- Mayor -->
-                <div class="characterContainer" id="cardMayor">
-                    <div class="characterCard">
-                        <div class="characterPortrait">
+                <div
+                    class="character-container mayor--container"
+                    id="card-mayor"
+                >
+                    <div class="character-card">
+                        <div class="character-portrait">
                             <img
-                                class="characterImage"
+                                class="character-image"
                                 src=""
                                 alt="Mayor Whiskers sprite"
                             />
                         </div>
-                        <p class="characterName">Mayor Whiskers</p>
-                        <p class="sectionText characterBio">
+                        <p class="character-name">Mayor Whiskers</p>
+                        <p class="section-text character-bio">
                             The jolly mayor of Purradise Island. He is
                             well-meaning and famously easy to win over with a
                             frsh fish delivery. He operates out of the Town Hall
@@ -132,16 +180,19 @@
                 </div>
 
                 <!-- Professor Clive -->
-                <div class="characterContainer" id="cardClive">
-                    <div class="characterCard">
-                        <div class="characterPortrait">
+                <div
+                    class="character-container clive--container"
+                    id="card-clive"
+                >
+                    <div class="character-card">
+                        <div class="character-portrait">
                             <img
-                                class="characterImage"
+                                class="character-image"
                                 alt="Professor Clive sprite"
                             />
                         </div>
-                        <p class="characterName">Professor Clive</p>
-                        <p class="sectionText characterBio">
+                        <p class="character-name">Professor Clive</p>
+                        <p class="section-text character-bio">
                             Professor Clive is Purradise Island's school teacher
                             and marine expert. Clive had dedicated his life to
                             cataloguing the fish species in and around the
@@ -155,17 +206,20 @@
                 </div>
 
                 <!-- Bank Teller -->
-                <div class="characterContainer" id="cardBankTeller">
-                    <div class="characterCard">
-                        <div class="characterPortrait">
+                <div
+                    class="character-container bank--container"
+                    id="card-bank-teller"
+                >
+                    <div class="character-card">
+                        <div class="character-portrait">
                             <img
-                                class="characterImage"
+                                class="character-image"
                                 src=""
                                 alt="Bank Teller sprite"
                             />
                         </div>
-                        <p class="characterName">Bank Teller</p>
-                        <p class="sectionText characterBio">
+                        <p class="character-name">Bank Teller</p>
+                        <p class="section-text character-bio">
                             The bank teller is the sole financial officer,
                             working out the only bank on the island. He is
                             responsible for managing Finn's clam account, he
@@ -176,17 +230,20 @@
                 </div>
 
                 <!-- Mysterious Homeless Cat -->
-                <div class="characterContainer" id="cardMysteryCat">
-                    <div class="characterCard">
-                        <div class="characterPortrait">
+                <div
+                    class="character-container mystery--container"
+                    id="card-mystery-cat"
+                >
+                    <div class="character-card">
+                        <div class="character-portrait">
                             <img
-                                class="characterImage"
+                                class="character-image"
                                 src=""
                                 alt="Mysterious Homeless Cat sprite"
                             />
                         </div>
-                        <p class="characterName">Mysterious Homeless Cat</p>
-                        <p class="sectionText characterBio">
+                        <p class="character-name">Mysterious Homeless Cat</p>
+                        <p class="section-text character-bio">
                             A mysterious unnamed character who wanders the
                             island. At the start of the game they appear fearful
                             around Finn, as the player progresses and spends
@@ -200,22 +257,25 @@
                 </div>
             </div>
             <!-- Kittezines -->
-            <div class="sectionContainer hiddenSection" id="sectionKittizens">
-                <h3 class="sectionTitle">Kittizens</h3>
-                <hr class="pageDivider" />
+            <div
+                class="section-container kittizens--container"
+                id="section-kittizens"
+            >
+                <h3 class="section-title">Kittizens</h3>
+                <hr class="page-divider" />
 
                 <!-- Kittizens -->
-                <div class="characterContainer">
-                    <div class="characterCard">
-                        <div class="characterPortrait">
+                <div class="character-container">
+                    <div class="character-card">
+                        <div class="character-portrait">
                             <img
-                                class="characterImage"
+                                class="character-image"
                                 src=""
                                 alt="Kittizens sprite"
                             />
                         </div>
-                        <p class="characterName">Kittizens</p>
-                        <p class="sectionText characterBio">
+                        <p class="character-name">Kittizens</p>
+                        <p class="section-text character-bio">
                             Kittizens are the humanoid cat residents of
                             Purradise Island, an isolated community that has
                             developed entirely independent from the outside
