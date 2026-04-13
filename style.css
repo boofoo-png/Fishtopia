@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(107, 206, 255);
+}
+
+.pageTitleContainer {
+    border:
+        7px solid,
+        rgb(239, 98, 23);
+    border-radius: 25px;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 30px;
+    color: rgb(239, 98, 23);
+    background-color: rgb(249, 188, 155);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet"> */
+
+.sectionContainer {
+    border:
+        7px solid,
+        rgb(239, 98, 23);
+    border-radius: 25px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 17px;
+    background-color: rgb(249, 188, 155);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+}
