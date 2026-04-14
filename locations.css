@@ -19,83 +19,90 @@ button {
     margin: 6px 6px 0 0;
 }
 
-.pageHeader {
+/* header area */
+.page-header {
     text-align: center;
     padding: 24px 16px;
 }
 
-.pageTitle {
+.page-title {
     font-size: 32px;
     margin-bottom: 10px;
 }
 
-.pageIntro {
+.page-intro {
     max-width: 700px;
     margin: 0 auto;
     line-height: 1.6;
 }
 
-.pageContent {
+/* main page layout */
+.page-content {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.filterContainer {
+/* filter buttons section */
+.filter-container {
     margin-bottom: 24px;
 }
 
-.sectionContainer {
+/* main content sections */
+.section-container {
     margin-bottom: 32px;
 }
 
-.sectionTitle {
+.section-title {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.sectionText {
+.section-text {
     line-height: 1.6;
     margin-bottom: 12px;
 }
 
-.pageDivider {
+.page-divider {
     margin: 18px 0;
     border: none;
     border-top: 1px solid #cfcfcf;
 }
 
-.locationContainer {
+/* individual location entries */
+.location-container {
     margin-bottom: 18px;
 }
 
-.locationCard {
+.location-card {
     padding: 10px 0;
 }
 
-.locationName {
+.location-name {
     font-size: 20px;
     margin-bottom: 8px;
 }
 
-.locationDescription {
+.location-description {
     margin: 8px 0;
 }
 
-.hiddenSection {
+/* class used by javascript to hide sections */
+.hidden-section {
     display: none;
 }
 
+/* responsive breakpoint */
 @media (max-width: 700px) {
-    .pageTitle {
+    .page-title {
         font-size: 28px;
     }
 
-    .sectionTitle {
+    .section-title {
         font-size: 22px;
     }
 
-    .pageContent {
+    .page-content {
         padding: 14px;
     }
 
