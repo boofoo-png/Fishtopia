@@ -1,18 +1,27 @@
-body {
-    background-color: rgb(107, 206, 255);
+:root {
+    --dark-orange: rgb(239, 98, 23);
+    --light-orange: rgb(249, 188, 155);
+    --shadow: drop-shadow(0px 6px 7px rgb(5, 2, 43));
+}
+
+html {
+    background-image: url("/images/fishtopia-webpage-background.png");
+    background-size: 75% no repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .page-title-container {
-    filter: drop-shadow(0px 7px 7px rgb(5, 2, 43));
+    filter: var(--shadow);
     border:
         7px solid,
-        rgb(239, 98, 23);
+        var(--dark-orange);
     border-radius: 25px;
     text-align: center;
     font-family: "Pixelify Sans", sans-serif;
     font-size: 30px;
-    color: rgb(239, 98, 23);
-    background-color: rgb(249, 188, 155);
+    color: var(--dark-orange);
+    background-color: var(--light-orange);
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 5%;
@@ -20,48 +29,68 @@ body {
 }
 
 .nav-container {
-    filter: drop-shadow(0px 7px 7px rgb(5, 2, 43));
-    display: flex;
-    justify-content: space-around;
+    filter: var(--shadow);
     border:
         7px solid,
-        rgb(239, 98, 23);
-    background-color: rgb(249, 188, 155);
+        var(--dark-orange);
+    background-color: var(--light-orange);
     border-radius: 25px;
     font-family: "Pixelify Sans", sans-serif;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 1%;
-    margin-bottom: 5%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .nav-item {
-    filter: drop-shadow(0px 4px 4px rgb(33, 1, 1));
+    filter: var(--shadow);
     display: inline-flex;
-    background-color: rgb(239, 98, 23);
+    background-color: var(--dark-orange);
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 10px;
-    margin-left: 2cqw;
-    margin-right: 2cqw;
 }
 
 .section-container {
-    filter: drop-shadow(0px 7px 7px rgb(5, 2, 43));
+    filter: var(--shadow);
     border:
         7px solid,
-        rgb(239, 98, 23);
+        var(--dark-orange);
     border-radius: 25px;
     font-family: "Pixelify Sans", sans-serif;
     font-size: 17px;
-    background-color: rgb(249, 188, 155);
+    background-color: var(--light-orange);
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 5vh;
     padding: 1%;
+}
+
+.section-title {
+    font-size: 30px;
+    margin-left: 10px;
+    color: var(--dark-orange);
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: var(--light-orange);
+}
+
+.nav-item:hover {
+    background-color: var(--light-orange);
+    .nav-btn {
+        background-color: var(--light-orange);
+        color: var(--dark-orange);
+    }
 }
 
 /* LINK FOR PIXELIFY FONT */
