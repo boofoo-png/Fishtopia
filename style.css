@@ -2,7 +2,7 @@ body {
     background-color: rgb(107, 206, 255);
 }
 
-.pageTitleContainer {
+.header-container {
     border:
         7px solid,
         rgb(239, 98, 23);
@@ -22,7 +22,7 @@ body {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet"> */
 
-.sectionContainer {
+.section-container {
     border:
         7px solid,
         rgb(239, 98, 23);
