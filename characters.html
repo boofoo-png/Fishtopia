@@ -19,7 +19,13 @@
         </div>
         <!-- Character Buttons -->
         <div class="filter-container">
-            <button class="filter-button active" id="btn-all">All</button>
+            <button
+                class="filter-button active"
+                id="btn-all"
+                data-associated-element="all"
+            >
+                All
+            </button>
             <!-- <button class="filterBtn" id="btnFinn">Finn Gill</button> -->
             <button
                 class="button filter-button"
@@ -257,15 +263,12 @@
                 </div>
             </div>
             <!-- Kittezines -->
-            <div
-                class="section-container kittizens--container"
-                id="section-kittizens"
-            >
+            <div class="section-container" id="section-kittizens">
                 <h3 class="section-title">Kittizens</h3>
                 <hr class="page-divider" />
 
                 <!-- Kittizens -->
-                <div class="character-container">
+                <div class="character-container kittizens--container">
                     <div class="character-card">
                         <div class="character-portrait">
                             <img
