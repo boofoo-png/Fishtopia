@@ -12,7 +12,7 @@ html {
 }
 
 .header{
-    font-family: "Pixelify Sans", sans-serif;
+  font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
 
 }
@@ -20,7 +20,7 @@ html {
 .page-title-container {
     filter: var(--shadow);
     border:
-        7px solid,
+        7px solid
         var(--dark-orange);
     border-radius: 25px;
     text-align: center;
@@ -37,7 +37,7 @@ html {
 .nav-container {
     filter: var(--shadow);
     border:
-        7px solid,
+        7px solid
         var(--dark-orange);
     background-color: var(--light-orange);
     border-radius: 25px;
@@ -64,14 +64,23 @@ html {
     border-radius: 10px;
 }
 
-.nav-btn{
-  color: white;
+.nav-btn {
+    text-decoration: none;
+    color: var(--light-orange);
+}
+
+.nav-item:hover {
+    background-color: var(--light-orange);
+    .nav-btn {
+        background-color: var(--light-orange);
+        color: var(--dark-orange);
+    }
 }
 
 .fish-content{
    filter: var(--shadow);
     border:
-        7px solid,
+        7px solid
         var(--dark-orange);
     border-radius: 25px;
     font-family: "Pixelify Sans", sans-serif;
@@ -99,7 +108,19 @@ html {
 
 .fish-type-heading{
   font-family: "Pixelify Sans", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
+  color: rgb(239, 98, 23);
+  filter: var(--shadow);
+    border:
+        7px solid
+        var(--dark-orange);
+    border-radius: 25px;
+     background-color: var(--light-orange);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 5vh;
+    padding: 1%;
 }
 
 .body-section{
