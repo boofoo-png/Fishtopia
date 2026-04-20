@@ -6,9 +6,9 @@
 
 body {
     background-image: url(fishtopia-images/fishtopia-webpage-background.png);
-    background-size: 75% no-repeat;
-    /* background-position: center;
-    background-attachment: fixed; */
+    background-size: 100vh no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .page-title-container {
@@ -99,11 +99,11 @@ body {
 }
 
 .filter-container {
-    filter: var(--shadow);
-    border:
+    /* filter: var(--shadow); */
+    /* border:
         7px solid,
         var(--dark-orange);
-    background-color: var(--light-orange);
+    background-color: var(--light-orange); */
     border-radius: 25px;
     font-family: "Pixelify Sans", sans-serif;
     margin-left: 10vw;
