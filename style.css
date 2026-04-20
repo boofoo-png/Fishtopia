@@ -5,7 +5,10 @@
 }
 
 body {
-    background-color: rgb(107, 206, 255);
+    background-image: url(fishtopia-images/fishtopia-webpage-background.png);
+    background-size: 75% no-repeat;
+    /* background-position: center;
+    background-attachment: fixed; */
 }
 
 .page-title-container {
