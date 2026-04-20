@@ -92,11 +92,6 @@ html {
         color: var(--dark-orange);
     }
 }
-.footer {
-    text-align: center;
-    font-family: "Pixelify Sans", sans-serif;
-    padding: 20px;
-}
 
 /* LINK FOR PIXELIFY FONT */
 /* <link rel="preconnect" href="https://fonts.googleapis.com">
