@@ -107,8 +107,12 @@ body {
     margin-right: 10vw;
     margin-top: 3vh;
     margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px 0;
 }
-.button {
+button {
     filter: var(--shadow);
     display: inline-flex;
     background-color: var(--dark-orange);
@@ -117,6 +121,17 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
+    /* Reset browser button defaults */
+    border: none;
+    cursor: pointer;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 17px;
+    color: var(--light-orange);
+}
+
+.button:hover {
+    background-color: var(--light-orange);
+    color: var(--dark-orange);
 }
 .hidden-section {
     display: none;
