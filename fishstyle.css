@@ -64,6 +64,10 @@ html {
     border-radius: 10px;
 }
 
+.nav-btn{
+  color: white;
+}
+
 .fish-content{
    filter: var(--shadow);
     border:
@@ -80,4 +84,25 @@ html {
     padding: 1%;
 }
 
+.head-section{
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.head-section_heading{
+  font-size: 40px;
+}
+
+.head-section_description{
+  font-size: 25px;
+}
+
+.fish-type-heading{
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 30px;
+}
+
+.body-section{
+  text-align: center;
+}
 
