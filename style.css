@@ -93,6 +93,26 @@ html {
     }
 }
 
+.button {
+    filter: var(--shadow);
+    display: inline-flex;
+    background-color: var(--dark-orange);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--light-orange);
+    font-family: "Pixelify Sans", sans-serif;
+    border: none;
+}
+
+.button:hover {
+    background-color: var(--light-orange);
+    color: var(--dark-orange);
+}
+
 /* LINK FOR PIXELIFY FONT */
 /* <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
