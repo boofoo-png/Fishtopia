@@ -52,13 +52,12 @@ html {
     padding-right: 20px;
     border-radius: 10px;
     border: none;
+    font-family: "Pixelify Sans", sans-serif;
 }
 
 .section-container {
     filter: var(--shadow);
-    border:
-        7px solid,
-        var(--dark-orange);
+    border: 7px solid var(--dark-orange);
     border-radius: 25px;
     font-size: 17px;
     background-color: var(--light-orange);
@@ -79,13 +78,9 @@ html {
 
 .nav-item:hover {
     background-color: var(--light-orange);
+    color: var(--dark-orange);
     .nav-btn {
         background-color: var(--light-orange);
         color: var(--dark-orange);
     }
-}
-
-.button:hover {
-    background-color: var(--light-orange);
-    color: var(--dark-orange);
 }
