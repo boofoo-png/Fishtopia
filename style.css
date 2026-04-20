@@ -9,6 +9,7 @@ html {
     background-size: 75% no repeat;
     background-position: center;
     background-attachment: fixed;
+    font-family: "Pixelify Sans", sans-serif;
 }
 
 .page-title-container {
@@ -18,14 +19,10 @@ html {
         var(--dark-orange);
     border-radius: 25px;
     text-align: center;
-    font-family: "Pixelify Sans", sans-serif;
     font-size: 30px;
     color: var(--dark-orange);
     background-color: var(--light-orange);
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 5%;
-    margin-bottom: 1%;
+    margin: 2vh 20vw;
 }
 
 .nav-container {
@@ -35,16 +32,14 @@ html {
         var(--dark-orange);
     background-color: var(--light-orange);
     border-radius: 25px;
-    font-family: "Pixelify Sans", sans-serif;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 3vh;
-    margin-bottom: 5vh;
+    margin: 5vh 10vw;
 }
 
 .nav-list {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 6px;
 }
 
 .nav-item {
@@ -56,6 +51,7 @@ html {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
+    border: none;
 }
 
 .section-container {
@@ -64,14 +60,10 @@ html {
         7px solid,
         var(--dark-orange);
     border-radius: 25px;
-    font-family: "Pixelify Sans", sans-serif;
     font-size: 17px;
     background-color: var(--light-orange);
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 1%;
-    margin-bottom: 5vh;
-    padding: 1%;
+    margin: 3vh 5vw;
+    padding: 10px;
 }
 
 .section-title {
@@ -93,27 +85,7 @@ html {
     }
 }
 
-.button {
-    filter: var(--shadow);
-    display: inline-flex;
-    background-color: var(--dark-orange);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: var(--light-orange);
-    font-family: "Pixelify Sans", sans-serif;
-    border: none;
-}
-
 .button:hover {
     background-color: var(--light-orange);
     color: var(--dark-orange);
 }
-
-/* LINK FOR PIXELIFY FONT */
-/* <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet"> */
