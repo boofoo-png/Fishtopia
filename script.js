@@ -14,7 +14,8 @@ filterButtons.forEach(function (filterButton) {
                 .forEach(function (card) {
                     card.classList.remove("hidden-section");
                 });
-            selectedSection = null;
+            // intial rendering
+                selectedSection = null;
         } else {
             // Hide all sections
             locationSections.forEach(function (section) {
