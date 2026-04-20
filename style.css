@@ -4,9 +4,9 @@
     --shadow: drop-shadow(0px 6px 7px rgb(5, 2, 43));
 }
 
-body {
-    background-image: url(fishtopia-images/fishtopia-webpage-background.png);
-    background-size: 100vh no-repeat;
+html {
+    background-image: url("/images/fishtopia-webpage-background.png");
+    background-size: 75% no repeat;
     background-position: center;
     background-attachment: fixed;
 }
@@ -115,7 +115,7 @@ body {
     flex-wrap: wrap;
     padding: 10px 0;
 }
-button {
+.button {
     filter: var(--shadow);
     display: inline-flex;
     background-color: var(--dark-orange);
@@ -130,6 +130,8 @@ button {
     font-family: "Pixelify Sans", sans-serif;
     font-size: 17px;
     color: var(--light-orange);
+        text-decoration: none;
+
 }
 
 .button:hover {

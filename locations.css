@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #1f2f38;
+    background-color: #f7f9f8;
+}
+
+h1,
+h2,
+h3 {
+    color: #17313d;
+    margin-top: 0;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 8px 12px;
+    margin: 6px 6px 0 0;
+}
+
+/* header area */
+.page-header {
+    text-align: center;
+    padding: 24px 16px;
+}
+
+.page-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.page-intro {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* main page layout */
+.page-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* filter buttons section */
+.filter-container {
+    margin-bottom: 24px;
+}
+
+/* main content sections */
+.section-container {
+    margin-bottom: 32px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section-text {
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.page-divider {
+    margin: 18px 0;
+    border: none;
+    border-top: 1px solid #cfcfcf;
+}
+
+/* individual location entries */
+.location-container {
+    margin-bottom: 18px;
+}
+
+.location-card {
+    padding: 10px 0;
+}
+
+.location-name {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.location-description {
+    margin: 8px 0;
+}
+
+/* class used by javascript to hide sections */
+.hidden-section {
+    display: none;
+}
+
+/* responsive breakpoint */
+@media (max-width: 700px) {
+    .page-title {
+        font-size: 28px;
+    }
+
+    .section-title {
+        font-size: 22px;
+    }
+
+    .page-content {
+        padding: 14px;
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        margin: 8px 0;
+    }
+}
