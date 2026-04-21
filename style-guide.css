@@ -1,0 +1,168 @@
+:root {
+    --dark-orange: rgb(239, 98, 23);
+    --light-orange: rgb(249, 188, 155);
+    --shadow: drop-shadow(0px 6px 7px rgb(5, 2, 43));
+}
+
+html,
+body {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    background-image: url("images/fishtopia-webpage-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.page-header,
+.page-title-container {
+    filter: var(--shadow);
+    border: 7px solid var(--dark-orange);
+    border-radius: 25px;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 30px;
+    color: var(--dark-orange);
+    background-color: var(--light-orange);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding: 10px;
+}
+
+.section-text {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 17px;
+    color: var(--dark-orange);
+    line-height: 1.5;
+}
+
+.nav-container {
+    filter: var(--shadow);
+    border: 7px solid var(--dark-orange);
+    background-color: var(--light-orange);
+    border-radius: 25px;
+    font-family: "Pixelify Sans", sans-serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    padding: 12px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    filter: var(--shadow);
+    display: inline-flex;
+    background-color: var(--dark-orange);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin: 6px;
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: var(--light-orange);
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.nav-item:hover {
+    background-color: var(--light-orange);
+}
+
+.nav-item:hover .nav-btn {
+    color: var(--dark-orange);
+}
+
+.page-content {
+    margin-bottom: 5vh;
+}
+
+.section-container {
+    filter: var(--shadow);
+    border: 7px solid var(--dark-orange);
+    border-radius: 25px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 17px;
+    background-color: var(--light-orange);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 5vh;
+    padding: 2%;
+}
+
+.section-title {
+    font-size: 30px;
+    margin-left: 10px;
+    color: var(--dark-orange);
+}
+
+/* style guide image layout */
+.style-guide-frame {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 4px solid var(--dark-orange);
+    border-radius: 18px;
+    padding: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.style-guide-image {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* mobile */
+@media (max-width: 700px) {
+    .page-header,
+    .page-title-container {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 24px;
+    }
+
+    .nav-container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .section-container {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 12px;
+    }
+
+    .section-title {
+        font-size: 24px;
+        margin-left: 0;
+    }
+
+    .nav-item {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .style-guide-frame {
+        padding: 10px;
+    }
+}
