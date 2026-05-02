@@ -1,5 +1,5 @@
 let filterButtons = document.querySelectorAll(".filter-button");
-let locationSections = document.querySelectorAll(".section-container");
+let characterSections = document.querySelectorAll(".section-container");
 
 filterButtons.forEach(function (filterButton) {
     filterButton.addEventListener("click", function () {
@@ -18,7 +18,7 @@ filterButtons.forEach(function (filterButton) {
                 selectedSection = null;
         } else {
             // Hide all sections
-            locationSections.forEach(function (section) {
+            characterSections.forEach(function (section) {
                 section.classList.add("hidden-section");
             });
             document
