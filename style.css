@@ -50,7 +50,6 @@ html {
     padding-right: 20px;
     border-radius: 10px;
     border: none;
-    font-family: "Pixelify Sans", sans-serif;
 }
 
 .section-container {
@@ -72,7 +71,6 @@ html {
     font-size: 40px;
     color: var(--dark-orange);
     text-align: center;
-    font-family: "Pixelify Sans", sans-serif;
 }
 .nav-btn {
     text-decoration: none;
@@ -95,7 +93,6 @@ html {
         var(--dark-orange);
     background-color: var(--light-orange); */
     border-radius: 25px;
-    font-family: "Pixelify Sans", sans-serif;
     margin-left: 10vw;
     margin-right: 10vw;
     margin-top: 3vh;
@@ -117,7 +114,6 @@ html {
     /* Reset browser button defaults */
     border: none;
     cursor: pointer;
-    font-family: "Pixelify Sans", sans-serif;
     font-size: 17px;
     color: var(--light-orange);
     text-decoration: none;
@@ -148,7 +144,6 @@ html {
     font-size: 40px;
     color: var(--dark-orange);
     margin: 0 0 6px 0;
-    font-family: "Pixelify Sans", sans-serif;
 }
 
 .character-bio {
