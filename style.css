@@ -171,3 +171,23 @@ html {
 .hidden-section {
     display: none;
 }
+
+@media (max-width: 700px) {
+    .pageTitle {
+        font-size: 28px;
+    }
+
+    .sectionTitle {
+        font-size: 22px;
+    }
+
+    .pageContent {
+        padding: 14px;
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        margin: 8px 0;
+    }
+}
