@@ -1,24 +1,24 @@
 let filterButtons = document.querySelectorAll(".filter-button");
-let characterSections = document.querySelectorAll(".section-container");
+let card = document.querySelectorAll(".section-container");
 
 filterButtons.forEach(function (filterButton) {
     filterButton.addEventListener("click", function () {
         let associatedElement = this.dataset.associatedElement;
 
         if (associatedElement === "all") {
-            characterSections.forEach(function (section) {
+            card.forEach(function (section) {
                 section.classList.remove("hidden-section");
             });
             document
                 .querySelectorAll(".character-container")
-                .forEach(function (card) {
-                    card.classList.remove("hidden-section");
+                .forEach(function (c) {
+                    c.classList.remove("hidden-section");
                 });
             // intial rendering
             selectedSection = null;
         } else {
             // Hide all sections
-            characterSections.forEach(function (section) {
+            card.forEach(function (section) {
                 section.classList.add("hidden-section");
             });
             document
