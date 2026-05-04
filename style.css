@@ -98,11 +98,11 @@ html {
   font-family: "Pixelify Sans", sans-serif;
 }
 
-.head-section_heading{
+.head-section__heading{
   font-size: 35px;
 }
 
-.head-section_description{
+.head-section__description{
   font-size: 25px;
 }
 
@@ -123,20 +123,26 @@ html {
     padding: 1%;
 }
 
-.body-section{
+.content-section{
   text-align: center;
 }
 
-.fish-content_name{
+.fish-content__name{
     font-size: 45px;
     color: rgb(239, 98, 23);
 }
 
-.fish-content_description{
+.fish-content__description{
     font-size: 25px;
 }
 
-.fish-content_description_level{
+.fish-content_description__level {
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(239, 98, 23)
+}
+
+.fish-content_description__weight {
     font-size: 25px;
     font-weight: bold;
     color:rgb(239, 98, 23)
