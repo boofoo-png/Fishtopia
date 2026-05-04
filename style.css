@@ -38,6 +38,7 @@ html {
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 6px;
+    padding: 0;
 }
 
 .nav-item {
@@ -84,6 +85,7 @@ html {
         background-color: var(--light-orange);
         color: var(--dark-orange);
     }
+    cursor: pointer;
 }
 .filter-container {
     filter: var(--shadow);
@@ -101,7 +103,7 @@ html {
     flex-wrap: wrap;
     padding: 10px 0;
 }
-.button {
+/* .button {
     font-family: "Pixelify Sans", sans-serif;
     filter: var(--shadow);
     display: inline-flex;
@@ -111,20 +113,20 @@ html {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 10px;
-    /* Reset browser button defaults */
-    border: none;
+    border-radius: 10px; */
+/* Reset browser button defaults */
+/* border: none;
     cursor: pointer;
     font-size: 17px;
     color: var(--light-orange);
     text-decoration: none;
     gap: 6px;
-}
-
+} */
+/* 
 .button:hover {
     background-color: var(--light-orange);
     color: var(--dark-orange);
-}
+} */
 
 .character-card {
     display: flex;
