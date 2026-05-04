@@ -131,3 +131,13 @@ html {
     font-size: 45px;
     color: rgb(239, 98, 23);
 }
+
+.fish-content_description{
+    font-size: 25px;
+}
+
+.fish-content_description_level{
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(239, 98, 23)
+}
