@@ -99,7 +99,7 @@ html {
 }
 
 .head-section_heading{
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .head-section_description{
@@ -109,13 +109,13 @@ html {
 .fish-type-heading{
   font-family: "Pixelify Sans", sans-serif;
   font-size: 40px;
-  color: rgb(239, 98, 23);
+  color: white;
   filter: var(--shadow);
     border:
         7px solid
         var(--dark-orange);
     border-radius: 25px;
-     background-color: var(--light-orange);
+     background-color: var(--dark-orange);
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1%;
