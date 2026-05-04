@@ -6,7 +6,7 @@ filterButtons.forEach(function (filterButton) {
         let associatedElement = this.dataset.associatedElement;
 
         if (associatedElement === "all") {
-            locationSections.forEach(function (section) {
+            characterSections.forEach(function (section) {
                 section.classList.remove("hidden-section");
             });
             document
@@ -15,7 +15,7 @@ filterButtons.forEach(function (filterButton) {
                     card.classList.remove("hidden-section");
                 });
             // intial rendering
-                selectedSection = null;
+            selectedSection = null;
         } else {
             // Hide all sections
             characterSections.forEach(function (section) {
