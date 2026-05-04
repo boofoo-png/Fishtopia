@@ -80,7 +80,10 @@ html {
 
 .nav-item:hover {
     background-color: var(--light-orange);
-    color: var(--dark-orange);
+    .nav-btn {
+        background-color: var(--light-orange);
+        color: var(--dark-orange);
+    }
 }
 .filter-container {
     filter: var(--shadow);
