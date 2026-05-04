@@ -75,23 +75,19 @@ html {
 .nav-btn {
     text-decoration: none;
     color: var(--light-orange);
+    background-color: var(--dark-orange);
 }
 
 .nav-item:hover {
     background-color: var(--light-orange);
     color: var(--dark-orange);
-    .nav-btn {
-        background-color: var(--light-orange);
-        color: var(--dark-orange);
-    }
 }
-
 .filter-container {
-    /* filter: var(--shadow); */
-    /* border:
+    filter: var(--shadow);
+    border:
         7px solid,
         var(--dark-orange);
-    background-color: var(--light-orange); */
+    background-color: var(--light-orange);
     border-radius: 25px;
     margin-left: 10vw;
     margin-right: 10vw;
@@ -103,8 +99,10 @@ html {
     padding: 10px 0;
 }
 .button {
+    font-family: "Pixelify Sans", sans-serif;
     filter: var(--shadow);
     display: inline-flex;
+    justify-content: space-evenly;
     background-color: var(--dark-orange);
     padding-top: 10px;
     padding-bottom: 10px;
@@ -117,6 +115,7 @@ html {
     font-size: 17px;
     color: var(--light-orange);
     text-decoration: none;
+    gap: 6px;
 }
 
 .button:hover {
