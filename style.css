@@ -80,3 +80,8 @@ html {
         color: var(--dark-orange);
     }
 }
+
+.dev-portrait-img {
+    width: 150px;
+    object-fit: contain;
+}
