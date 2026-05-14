@@ -100,7 +100,7 @@ html {
     flex-wrap: wrap;
     padding: 10px 0;
 }
-/* .button {
+.button {
     font-family: "Pixelify Sans", sans-serif;
     filter: var(--shadow);
     display: inline-flex;
@@ -110,20 +110,46 @@ html {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 10px; */
+    border-radius: 10px;
 /* Reset browser button defaults */
-/* border: none;
+border: none;
     cursor: pointer;
     font-size: 17px;
     color: var(--light-orange);
     text-decoration: none;
     gap: 6px;
-} */
-/* 
+}
+
+.filter-button {
+    font-family: "Pixelify Sans", sans-serif;
+    filter: var(--shadow);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: var(--dark-orange);
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+/* Reset browser button defaults */
+border: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: var(--light-orange);
+    text-decoration: none;
+    gap: 6px;
+}
+
+.filter-button:hover {
+    background-color: var(--light-orange);
+    color: var(--dark-orange);
+}
+
 .button:hover {
     background-color: var(--light-orange);
     color: var(--dark-orange);
-} */
+}
 
 .character-card {
     display: flex;
