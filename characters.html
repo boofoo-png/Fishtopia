@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Characters</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Header and Nav -->
+        <div class="page-title-container">
+            <h1 class="page-title">Fishtopia</h1>
+        </div>
+        <nav class="nav-container">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="homepage.html" class="nav-btn">Homepage</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gameplay.html" class="nav-btn">Gameplay</a>
+                </li>
+                <li class="nav-item">
+                    <a href="locations.html" class="nav-btn">Locations</a>
+                </li>
+                <li class="nav-item">
+                    <a href="characters.html" class="nav-btn">Characters</a>
+                </li>
+                <li class="nav-item">
+                    <a href="items.html" class="nav-btn">Items</a>
+                </li>
+                <li class="nav-item">
+                    <a href="story.html" class="nav-btn">Story</a>
+                </li>
+                <li class="nav-item">
+                    <a href="fish.html" class="nav-btn">Fish</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Character Content -->
+        <main>
+            <h2 class="section-header">Characters</h2>
+            <!-- Character Buttons -->
+            <ul class="nav-list filter-container nav-container">
+                <li
+                    class="nav-item nav-btn filter-button active"
+                    id="btn-all"
+                    data-associated-element="all"
+                >
+                    All
+                </li>
+                <!-- <button class="filterBtn" id="btnFinn">Finn Gill</button> -->
+                <li
+                    class="nav-item nav-btn filter-button nav-item"
+                    data-associated-element=".finn--container"
+                >
+                    Finn
+                </li>
+                <!-- <button class="filterBtn" id="btnJimbo">Jimbo</button> -->
+                <li
+                    class="nav-btn filter-button nav-item"
+                    data-associated-element=".jimbo--container"
+                >
+                    Jimbo
+                </li>
+                <!-- <button class="filterBtn" id="btnMayor">Mayor Whiskers</button> -->
+                <li
+                    class="nav-btn filter-button nav-item"
+                    data-associated-element=".mayor--container"
+                >
+                    Mayor Whiskers
+                </li>
+                <!-- <button class="filterBtn" id="btnClive">Professor Clive</button> -->
+                <li
+                    class="nav-btn filter-button nav-item"
+                    data-associated-element=".clive--container"
+                >
+                    Professor Clive
+                </li>
+                <!-- <button class="filterBtn" id="btnBank">Bank Teller</button> -->
+                <li
+                    class="nav-btn filter-button nav-item"
+                    data-associated-element=".bank--container"
+                >
+                    Bank Teller
+                </li>
+                <!-- <button class="filterBtn" id="btnMystery">Mysterious Cat</button> -->
+                <li
+                    class="nav-btn filter-button nav-item"
+                    data-associated-element=".mystery--container"
+                >
+                    Mysterious Cat
+                </li>
+                <!-- <button class="filterBtn" id="btnKittizens">Kittizens</button> -->
+                <li
+                    class="nav-btn filter-button nav-item"
+                    data-associated-element=".kittizens--container"
+                >
+                    Kittizens
+                </li>
+            </ul>
+
+            <!-- Finn Gill -->
+
+            <div class="section-container" id="sectionFinn">
+                <h3 class="section-title">Main Character</h3>
+                <div class="character-container finn--container">
+                    <div class="character-card">
+                        <div class="character-portrait">
+                            <img
+                                class="character-image"
+                                src="fishtopia-images/finn-sprite.png"
+                                alt="Finn Gill sprite"
+                            />
+                        </div>
+                        <p class="character-name">Finn Gill</p>
+                        <p class="section-text character-bio">
+                            The player character and protagonist of Fishtopia.
+                            Originally from a busy city, Finn had little
+                            connection to their family history until receiveing
+                            a letter from the Bank of Purradise Island,
+                            informing them that their late grandfather's estate
+                            would be seized unless claimed in person. With no
+                            strong memories of their grandfather, Finn
+                            reluctantly travels to Purradise Island. Upon
+                            arrival a sudden wave wrecks their boat, stranding
+                            them indefinitely. With no way home and no fishing
+                            experience, Finn takes over their grandfather's
+                            fishing operation, slowly learning the trade under
+                            the guidance of a neighbouring fisherman.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Key NPCs -->
+            <div class="section-container" id="section-npcs">
+                <h3 class="section-title">Key NPCs</h3>
+                <!-- Add generalized info about all the NPCs -->
+                <div class="section-text">
+                    NPCs populate the game world and serve a variety of roles.
+                    They are essential to create a believable world, they drive
+                    the story forward and provide useful information.
+                </div>
+                <hr class="page-divider" />
+
+                <!-- Fisherman Cat -->
+                <div
+                    class="character-container jimbo--container"
+                    id="card-jimbo"
+                >
+                    <div class="character-card">
+                        <div class="character-portrait">
+                            <img
+                                class="character-image"
+                                src="fishtopia-images/jimbo-sprite.png"
+                                alt="Jimbo sprite"
+                            />
+                        </div>
+                        <p class="character-name">Jimbo</p>
+                        <p class="section-text character-bio">
+                            Jimbo is a retired fisherman and Finn's late
+                            grandfather's next door neighbour on Purradise
+                            Island. A long time friend of Finn's grandfather,
+                            Jimbo remembers him with deep affection and respect.
+                            Upon Finn's arrival, Jimbo immediately steps in as
+                            their mentor, teaching them the fundamentals of
+                            fishing. He is one of the most important sources of
+                            practical knowledge and personal lore in the game.
+                            His relationship with Fin develops steadily
+                            throughout the game.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Mayor -->
+                <div
+                    class="character-container mayor--container"
+                    id="card-mayor"
+                >
+                    <div class="character-card">
+                        <div class="character-portrait">
+                            <img
+                                class="character-image"
+                                src="fishtopia-images/mayor-sprite.png"
+                                alt="Mayor Whiskers sprite"
+                            />
+                        </div>
+                        <p class="character-name">Mayor Whiskers</p>
+                        <p class="section-text character-bio">
+                            The jolly mayor of Purradise Island. He is
+                            well-meaning and famously easy to win over with a
+                            frsh fish delivery. He operates out of the Town Hall
+                            and serves as the gatekeeper for new fishing area
+                            permits. Players must bring him specific quantities
+                            and species of fish in order to unlock access to new
+                            fishing regions of the island. Despite his laid-back
+                            demenour, Mayor Whiskers genuinely cares about the
+                            well being of the Kittizens and is deeply grateful
+                            for Finn's contributions to the island's food
+                            supply.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Professor Clive -->
+                <div
+                    class="character-container clive--container"
+                    id="card-clive"
+                >
+                    <div class="character-card">
+                        <div class="character-portrait">
+                            <img
+                                class="character-image"
+                                src="fishtopia-images/clive-sprite.png"
+                                alt="Professor Clive sprite"
+                            />
+                        </div>
+                        <p class="character-name">Professor Clive</p>
+                        <p class="section-text character-bio">
+                            Professor Clive is Purradise Island's school teacher
+                            and marine expert. Clive had dedicated his life to
+                            cataloguing the fish species in and around the
+                            islands waters. Whenever Finn discovers a new
+                            species, Professor Clive documents it and provides
+                            information about the fish. Player will build a
+                            strong relationship with him and unlock additional
+                            lore about Purradise Island's history.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Bank Teller -->
+                <div
+                    class="character-container bank--container"
+                    id="card-bank-teller"
+                >
+                    <div class="character-card">
+                        <div class="character-portrait">
+                            <img
+                                class="character-image"
+                                src="fishtopia-images/bank-teller-sprite.png"
+                                alt="Bank Teller sprite"
+                            />
+                        </div>
+                        <p class="character-name">Bank Teller</p>
+                        <p class="section-text character-bio">
+                            The bank teller is the sole financial officer,
+                            working out the only bank on the island. He is
+                            responsible for managing Finn's clam account, he
+                            handles all deposits and withdraws. Not much is know
+                            about him beyond his role.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Mysterious Homeless Cat -->
+                <div
+                    class="character-container mystery--container"
+                    id="card-mystery-cat"
+                >
+                    <div class="character-card">
+                        <div class="character-portrait">
+                            <img
+                                class="character-image"
+                                src="fishtopia-images/mystery-sprite.png"
+                                alt="Mysterious Homeless Cat sprite"
+                            />
+                        </div>
+                        <p class="character-name">Mysterious Homeless Cat</p>
+                        <p class="section-text character-bio">
+                            A mysterious unnamed character who wanders the
+                            island. At the start of the game they appear fearful
+                            around Finn, as the player progresses and spends
+                            more time on the island, the cat gradually warms up.
+                            Appearing in mnew loactions, eventually exchanging a
+                            few words and slowly revealing fragments of their
+                            past. Their full backstory remains one of the games
+                            quieter mysteries.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Kittezens -->
+            <div class="section-container" id="section-kittizens">
+                <h3 class="section-title">Kittizens</h3>
+                <!-- Kittizens -->
+                <div class="character-container kittizens--container">
+                    <div class="character-card">
+                        <div class="character-portrait">
+                            <img
+                                class="character-image kittizen-sprite"
+                                src="fishtopia-images/kittizen-sprite.png"
+                                alt="Kittizens sprite"
+                            />
+                        </div>
+
+                        <p class="section-text character-bio">
+                            Kittizens are the humanoid cat residents of
+                            Purradise Island, an isolated community that has
+                            developed entirely independent from the outside
+                            world. Prior to Finn's arrival , the island had been
+                            struggling since the loss of Finn's grandfather,
+                            whose fishing operation was the backbone of the
+                            local food supply. In his absence, the Kittizens
+                            were left to rely on chummy, ultra-processed frozen
+                            fish sticks distrubited by a big evil coperation. As
+                            Finn earns their trust overtime individual kittizens
+                            will open up, offering side quests and tasks to
+                            complete.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>

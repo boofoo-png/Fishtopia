@@ -5,7 +5,7 @@
 }
 
 html {
-    background-image: url("/images/fishtopia-webpage-background.png");
+    background-image: url("fishtopia-images/fishtopia-webpage-background.png");
     background-size: 75% no repeat;
     background-position: center;
     background-attachment: fixed;
@@ -14,9 +14,7 @@ html {
 
 .page-title-container {
     filter: var(--shadow);
-    border:
-        7px solid,
-        var(--dark-orange);
+    border: 7px solid var(--dark-orange);
     border-radius: 25px;
     text-align: center;
     font-size: 30px;
@@ -40,6 +38,7 @@ html {
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 6px;
+    padding: 0;
 }
 
 .nav-item {
@@ -66,18 +65,131 @@ html {
     margin-left: 10px;
     color: var(--dark-orange);
 }
-
+.section-header {
+    font-size: 40px;
+    color: var(--dark-orange);
+    text-align: center;
+}
 .nav-btn {
     text-decoration: none;
     color: var(--light-orange);
+    background-color: var(--dark-orange);
 }
 
 .nav-item:hover {
     background-color: var(--light-orange);
-    color: var(--dark-orange);
     .nav-btn {
         background-color: var(--light-orange);
         color: var(--dark-orange);
+    }
+    cursor: pointer;
+}
+.filter-container {
+    filter: var(--shadow);
+    border:
+        7px solid,
+        var(--dark-orange);
+    background-color: var(--light-orange);
+    border-radius: 25px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+/* .button {
+    font-family: "Pixelify Sans", sans-serif;
+    filter: var(--shadow);
+    display: inline-flex;
+    justify-content: space-evenly;
+    background-color: var(--dark-orange);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px; */
+/* Reset browser button defaults */
+/* border: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: var(--light-orange);
+    text-decoration: none;
+    gap: 6px;
+} */
+/* 
+.button:hover {
+    background-color: var(--light-orange);
+    color: var(--dark-orange);
+} */
+
+.character-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 1rem;
+}
+
+.character-portrait {
+    filter: var(--shadow);
+}
+.character-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10%;
+}
+.character-name {
+    font-size: 40px;
+    color: var(--dark-orange);
+    margin: 0 0 6px 0;
+}
+
+.character-bio {
+    margin: 0;
+    line-height: 1.5;
+}
+.kittizens--container .character-card {
+    flex-direction: column;
+}
+
+.kittizens--container .kittizen-sprite {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+    flex-shrink: 1;
+}
+.kittizens--container .character-portrait {
+    align-self: center;
+}
+
+.kittizens--container .character-name {
+    margin-top: 10px;
+}
+
+.hidden-section {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .pageTitle {
+        font-size: 28px;
+    }
+
+    .sectionTitle {
+        font-size: 22px;
+    }
+
+    .pageContent {
+        padding: 14px;
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        margin: 8px 0;
     }
 }
 
