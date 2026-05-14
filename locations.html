@@ -21,23 +21,29 @@
 
         <!-- css -->
         <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com" />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+            rel="stylesheet" />
+        <link
             rel="stylesheet"
-            href="locations.css" />
+            href="style.css" />
     </head>
 
     <body>
-        <!-- page header -->
-        <header class="page-header">
+        <div class="page-title-container">
             <h1 class="page-title">Fishtopia</h1>
-        
-        </header>
-
-        <!-- navigation bar (shared across all pages) -->
+        </div>
         <nav class="nav-container">
             <ul class="nav-list">
                 <li class="nav-item">
                     <a
-                        href="homepage.html"
+                        href="index.html"
                         class="nav-btn"
                         >Homepage</a
                     >
@@ -77,14 +83,36 @@
                         >Story</a
                     >
                 </li>
+                <li class="nav-item">
+                    <a
+                        href="fish.html"
+                        class="nav-btn"
+                        >Fish</a
+                    >
+                </li>
             </ul>
         </nav>
-
+        <!-- page header -->
+         <div class="section-container">
+        <header class="page-header">
+            <h1 class="page-title">Locations</h1>
+            <p class="section-text page-intro">
+                Purradise Island is made up of different
+                areas that support the story, fishing
+                progression, and daily life of the
+                Kittezens. Some locations help move the game
+                forward directly, while others add more
+                personality and world-building to the
+                island.
+            </p>
+        </header>
+        </div>
         <main class="page-content">
             <!-- filter section -->
             <div class="filter-container">
-                <h2 class="section-title">Browse Locations</h2>
-
+                <h2 class="section-title">
+                    Browse Locations
+                </h2>
                 <button
                     class="filter-button"
                     data-associated-element="all">
@@ -111,42 +139,113 @@
             <div
                 id="town-locations"
                 class="section-container">
-                <h2 class="section-title">Town Locations</h2>
-                <p class="section-text">
-                    These locations help show how the island functions as a
-                    close-knit town. Some support progression directly, while
-                    others build atmosphere and relationships.
-                </p>
+                <h2 class="section-title">
+                    Town Locations
+                </h2>
+                <div class="section-text">
+                    These locations help show how the island
+                    functions as a close-knit town. Some
+                    support progression directly, while
+                    others build atmosphere and
+                    relationships.
+                </div>
 
                 <hr class="page-divider" />
 
                 <div class="location-container">
                     <div class="location-card">
-                        <h3 class="location-name">Town Hall</h3>
-                        <p class="section-text">
-                            Town Hall is where Mayor Whiskers tracks Finn’s
-                            progress and grants permits to unlock new fishing
-                            areas.
+                        <h3 class="location-name">
+                            Town Hall
+                        </h3>
+                        <p
+                            class="section-text location-description">
+                            Town Hall is where Mayor
+                            Whiskers tracks Finn’s progress
+                            and grants permits to unlock new
+                            fishing areas. It is one of the
+                            most important locations for
+                            story progression because new
+                            parts of the map are tied to the
+                            mayor and your fishing
+                            milestones.
+                        </p>
+                        <p
+                            class="section-text location-description">
+                            Players can access it in the
+                            main town area early in the
+                            game.
                         </p>
                     </div>
                 </div>
 
                 <div class="location-container">
                     <div class="location-card">
-                        <h3 class="location-name">General Store</h3>
-                        <p class="section-text">
-                            The general store gives players access to supplies
-                            like bait and useful fishing items.
+                        <h3 class="location-name">
+                            General Store
+                        </h3>
+                        <p
+                            class="section-text location-description">
+                            The general store gives players
+                            access to supplies like bait and
+                            other useful fishing items. As
+                            the game progresses, better bait
+                            becomes important for reaching
+                            certain fish and locations.
+                        </p>
+                        <p
+                            class="section-text location-description">
+                            Players can visit the general
+                            store once they start exploring
+                            the main town.
                         </p>
                     </div>
                 </div>
 
                 <div class="location-container">
                     <div class="location-card">
-                        <h3 class="location-name">Saloon</h3>
-                        <p class="section-text">
-                            A social space that adds personality to the town.
-                            Kittezens can relax here with fun drinks.
+                        <h3 class="location-name">
+                            Saloon
+                        </h3>
+                        <p
+                            class="section-text location-description">
+                            The saloon is more of a social
+                            and relaxing space on the
+                            island. It does not really drive
+                            progression, but it adds
+                            personality and whimsy to the
+                            town and makes the world feel
+                            more lived in.
+                        </p>
+                        <p
+                            class="section-text location-description">
+                            Kittezens can stop here for
+                            silly drinks like tuna juice and
+                            milk.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- school -->
+                <div class="location-container">
+                    <div class="location-card">
+                        <h3 class="location-name">
+                            School
+                        </h3>
+                        <p
+                            class="section-text location-description">
+                            The school is associated with
+                            Professor Clive, who teaches
+                            players more about fish species
+                            and helps document discoveries.
+                            This location adds world
+                            building and supports the fish
+                            collection side of the game.
+                        </p>
+                        <p
+                            class="section-text location-description">
+                            It is available in town and
+                            helps make the island feel like
+                            a real community.
                         </p>
                     </div>
                 </div>
@@ -154,6 +253,26 @@
         </div>
                 
 
+                <!-- dock -->
+                <div class="location-container">
+                    <div class="location-card">
+                        <h3 class="location-name">Dock</h3>
+                        <p
+                            class="section-text location-description">
+                            The dock is important because it
+                            connects to Finn’s arrival on
+                            the island and their original
+                            goal of repairing the boat and
+                            leaving.
+                        </p>
+                        <p
+                            class="section-text location-description">
+                            Even later in the game, it still
+                            acts as a reminder of Finn’s
+                            possible departure.
+                        </p>
+                    </div>
+                </div>
             </div>
 
             <!-- fishing locations -->
@@ -161,27 +280,131 @@
                 id="fishing-locations"
                 class="section-container">
                 <h2 class="section-title">Fishing Areas</h2>
-                <p class="section-text">
-                    These areas shape gameplay progression and introduce new
-                    fishing challenges.
-                </p>
+                <div class="section-text">
+                    These areas shape the game’s
+                    progression. Each new location
+                    introduces stronger fish, new
+                    challenges, and more of the island’s
+                    mystery.
+                </div>
 
                 <hr class="page-divider" />
 
                 <div class="location-container">
                     <div class="location-card">
-                        <h3 class="location-name">Town Pond</h3>
-                        <p class="section-text">
-                            Starter area for learning basic fishing mechanics.
+                        <h3 class="location-name">
+                            Town Pond
+                        </h3>
+                        <p
+                            class="section-text location-description">
+                            Town Pond is one of the starter
+                            fishing areas. It is meant to
+                            ease players into the fishing
+                            loop with more common fish and
+                            lower difficulty.
+                        </p>
+                        <p
+                            class="section-text location-description">
+                            This area is available early and
+                            helps players learn how to catch
+                            fish, sell them, and begin
+                            earning clams.
                         </p>
                     </div>
                 </div>
 
                 <div class="location-container">
                     <div class="location-card">
-                        <h3 class="location-name">Beachside</h3>
-                        <p class="section-text">
-                            Focuses on ocean fish and expands early gameplay.
+                        <h3 class="location-name">
+                            Beachside
+                        </h3>
+                        <p
+                            class="section-text location-description">
+                            Beachside is separate from the
+                            pond and focuses more on ocean
+                            and salt-water catches. It
+                            expands the player’s options
+                            early and helps make the island
+                            feel geographically varied.
+                        </p>
+                        <p
+                            class="section-text location-description">
+                            This area becomes especially
+                            useful once salt water bait and
+                            better tools come into play.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- cave pond -->
+                <div class="location-container">
+                    <div class="location-card">
+                        <h3 class="location-name">
+                            Cave Pond
+                        </h3>
+                        <p
+                            class="section-text location-description">
+                            Cave Pond is a darker and more
+                            difficult fishing area with
+                            uncommon fish. It introduces
+                            more tension and starts pushing
+                            the player into the next level
+                            of progression.
+                        </p>
+                        <p
+                            class="section-text location-description">
+                            Players unlock this area later
+                            through progress, equipment
+                            upgrades, and the mayor’s permit
+                            system.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- magical forest lake -->
+                <div class="location-container">
+                    <div class="location-card">
+                        <h3 class="location-name">
+                            Magical Forest Lake
+                        </h3>
+                        <p
+                            class="section-text location-description">
+                            Magical Forest Lake introduces
+                            rarer and more unusual fish. It
+                            adds a brighter, more enchanted
+                            feeling to the game world and
+                            makes exploration feel more
+                            rewarding.
+                        </p>
+                        <p
+                            class="section-text location-description">
+                            By this point, the player is
+                            deeper into both the game’s
+                            mechanics and its story.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- volcano area -->
+                <div class="location-container">
+                    <div class="location-card">
+                        <h3 class="location-name">
+                            Volcano Lake
+                        </h3>
+                        <p
+                            class="section-text location-description">
+                            Volcano Lake is the final major
+                            fishing area and the highest
+                            challenge in the game. It is
+                            tied to legendary fish and marks
+                            the end stage of area
+                            progression.
+                        </p>
+                        <p
+                            class="section-text location-description">
+                            Reaching this location shows how
+                            far the player has come in both
+                            gameplay and story progression.
                         </p>
                     </div>
                 </div>
@@ -191,29 +414,61 @@
             <div
                 id="special-locations"
                 class="section-container">
-                <h2 class="section-title">Special Locations</h2>
-                <p class="section-text">
-                    These locations are tied more to story and emotional
-                    progression.
-                </p>
+                <h2 class="section-title">
+                    Special Locations
+                </h2>
+                <div class="section-text">
+                    These locations matter more to the
+                    emotional side of the game. They help
+                    shape Finn’s connection to the island
+                    and to their grandfather’s past.
+                </div>
 
                 <hr class="page-divider" />
 
                 <div class="location-container">
                     <div class="location-card">
-                        <h3 class="location-name">Grandfather’s House</h3>
-                        <p class="section-text">
-                            Finn’s home base and the starting point of the
-                            story.
+                        <h3 class="location-name">
+                            Grandfather’s House
+                        </h3>
+                        <p
+                            class="section-text location-description">
+                            This house becomes Finn’s home
+                            base after arriving on the
+                            island. It is where the
+                            inherited fishing business
+                            begins and where parts of Finn’s
+                            grandfather’s history can be
+                            uncovered.
+                        </p>
+                        <p
+                            class="section-text location-description">
+                            It acts as both a practical
+                            location and an emotional anchor
+                            for the story.
                         </p>
                     </div>
                 </div>
 
                 <div class="location-container">
                     <div class="location-card">
-                        <h3 class="location-name">Storm Shoreline</h3>
-                        <p class="section-text">
-                            Where Finn first arrives after the storm.
+                        <h3 class="location-name">
+                            Storm Shoreline
+                        </h3>
+                        <p
+                            class="section-text location-description">
+                            The shoreline is where Finn
+                            washes up after the storm
+                            damages the boat. It marks the
+                            start of the game and the moment
+                            Finn’s temporary visit becomes
+                            something much more complicated.
+                        </p>
+                        <p
+                            class="section-text location-description">
+                            This location helps establish
+                            the emotional tone of the story
+                            from the very beginning.
                         </p>
                     </div>
                 </div>

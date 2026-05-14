@@ -1,0 +1,129 @@
+:root {
+    --dark-orange: rgb(239, 98, 23);
+    --light-orange: rgb(249, 188, 155);
+    --shadow: drop-shadow(0px 6px 7px rgb(5, 2, 43));
+}
+
+html {
+    background-image: url("fishImages/fishtopia-webpage-background.png");
+    background-size: 75% no repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header{
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+.page-title-container {
+    filter: var(--shadow);
+    border:
+        7px solid
+        var(--dark-orange);
+    border-radius: 25px;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 30px;
+    color: var(--dark-orange);
+    background-color: var(--light-orange);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.nav-container {
+    filter: var(--shadow);
+    border:
+        7px solid
+        var(--dark-orange);
+    background-color: var(--light-orange);
+    border-radius: 25px;
+    font-family: "Pixelify Sans", sans-serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    filter: var(--shadow);
+    display: inline-flex;
+    background-color: var(--dark-orange);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: var(--light-orange);
+}
+
+.nav-item:hover {
+    background-color: var(--light-orange);
+    .nav-btn {
+        background-color: var(--light-orange);
+        color: var(--dark-orange);
+    }
+}
+
+.fish-content{
+   filter: var(--shadow);
+    border:
+        7px solid
+        var(--dark-orange);
+    border-radius: 25px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 17px;
+    background-color: var(--light-orange);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 5vh;
+    padding: 1%;
+}
+
+.head-section{
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.head-section_heading{
+  font-size: 40px;
+}
+
+.head-section_description{
+  font-size: 25px;
+}
+
+.fish-type-heading{
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 40px;
+  color: rgb(239, 98, 23);
+  filter: var(--shadow);
+    border:
+        7px solid
+        var(--dark-orange);
+    border-radius: 25px;
+     background-color: var(--light-orange);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 5vh;
+    padding: 1%;
+}
+
+.body-section{
+  text-align: center;
+}
+
