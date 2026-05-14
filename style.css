@@ -165,6 +165,29 @@ html {
     align-self: center;
 }
 
+.dev-portrait-img {
+    width: 150px;
+    object-fit: contain;
+}
+
+.section-img {
+    margin-left: 2vw;
+    width: 350px;
+    object-fit: contain;
+    border: solid 5px var(--dark-orange);
+    border-radius: 8px;
+}
+
+table {
+    border: 5px solid var(--dark-orange);
+    padding-right: 15px;
+    border-radius: 8px;
+}
+
+/* LINK FOR PIXELIFY FONT */
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet"> */
 .kittizens--container .character-name {
     margin-top: 10px;
 }
