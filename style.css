@@ -5,11 +5,16 @@
 }
 
 html {
-    background-image: url("/images/fishtopia-webpage-background.png");
+    background-image: url("fishtopia-images/fishtopia-webpage-background.png");
     background-size: 75% no repeat;
     background-position: center;
     background-attachment: fixed;
     font-family: "Pixelify Sans", sans-serif;
+}
+
+.header{
+  font-optical-sizing: auto;
+
 }
 
 .page-title-container {
@@ -17,18 +22,28 @@ html {
     border: 7px solid var(--dark-orange);
     border-radius: 25px;
     text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
     font-size: 30px;
     color: var(--dark-orange);
     background-color: var(--light-orange);
-    margin: 2vh 20vw;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 1%;
 }
 
 .nav-container {
     filter: var(--shadow);
-    border: 7px solid var(--dark-orange);
+    border:
+        7px solid
+        var(--dark-orange);
     background-color: var(--light-orange);
     border-radius: 25px;
-    margin: 5vh 10vw;
+    font-family: "Pixelify Sans", sans-serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
 }
 
 .nav-list {
@@ -36,16 +51,19 @@ html {
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 6px;
+    padding: 0;
 }
 
 .nav-item {
     filter: var(--shadow);
     display: inline-flex;
     background-color: var(--dark-orange);
-    padding: 10px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 10px;
     border: none;
-    font-family: "Pixelify Sans", sans-serif;
 }
 
 .section-container {
@@ -63,19 +81,261 @@ html {
     margin-left: 10px;
     color: var(--dark-orange);
 }
-
+.section-header {
+    font-size: 40px;
+    color: var(--dark-orange);
+    text-align: center;
+}
 .nav-btn {
     text-decoration: none;
     color: var(--light-orange);
+    background-color: var(--dark-orange);
 }
 
 .nav-item:hover {
     background-color: var(--light-orange);
-    color: var(--dark-orange);
     .nav-btn {
         background-color: var(--light-orange);
         color: var(--dark-orange);
     }
+    cursor: pointer;
+}
+.filter-container {
+    filter: var(--shadow);
+    border:
+        7px solid,
+        var(--dark-orange);
+    background-color: var(--light-orange);
+    border-radius: 25px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+.button {
+    font-family: "Pixelify Sans", sans-serif;
+    filter: var(--shadow);
+    display: inline-flex;
+    justify-content: space-evenly;
+    background-color: var(--dark-orange);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+/* Reset browser button defaults */
+border: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: var(--light-orange);
+    text-decoration: none;
+    gap: 6px;
+}
+
+.filter-button {
+    font-family: "Pixelify Sans", sans-serif;
+    filter: var(--shadow);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: var(--dark-orange);
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+/* Reset browser button defaults */
+border: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: var(--light-orange);
+    text-decoration: none;
+    gap: 6px;
+}
+
+.filter-button:hover {
+    background-color: var(--light-orange);
+    color: var(--dark-orange);
+}
+
+.button:hover {
+    background-color: var(--light-orange);
+    color: var(--dark-orange);
+}
+
+.character-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 1rem;
+}
+
+.character-portrait {
+    filter: var(--shadow);
+}
+.character-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10%;
+}
+.character-name {
+    font-size: 40px;
+    color: var(--dark-orange);
+    margin: 0 0 6px 0;
+}
+
+.character-bio {
+    margin: 0;
+    line-height: 1.5;
+}
+.kittizens--container .character-card {
+    flex-direction: column;
+}
+
+.kittizens--container .kittizen-sprite {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+    flex-shrink: 1;
+}
+.kittizens--container .character-portrait {
+    align-self: center;
+}
+
+.dev-portrait-img {
+    width: 150px;
+    object-fit: contain;
+}
+
+.section-img {
+    margin-left: 2vw;
+    width: 350px;
+    object-fit: contain;
+    border: solid 5px var(--dark-orange);
+    border-radius: 8px;
+}
+
+table {
+    border: 5px solid var(--dark-orange);
+    padding-right: 15px;
+    border-radius: 8px;
+}
+
+/* LINK FOR PIXELIFY FONT */
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet"> */
+.kittizens--container .character-name {
+    margin-top: 10px;
+}
+
+.hidden-section {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .pageTitle {
+        font-size: 28px;
+    }
+
+    .sectionTitle {
+        font-size: 22px;
+    }
+
+    .pageContent {
+        padding: 14px;
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        margin: 8px 0;
+    }
+}
+
+.dev-portrait-img {
+    width: 150px;
+    object-fit: contain;
+}
+
+.fish-content{
+   filter: var(--shadow);
+    border:
+        7px solid
+        var(--dark-orange);
+    border-radius: 25px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 17px;
+    background-color: var(--light-orange);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 5vh;
+    padding: 1%;
+}
+
+.head-section{
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.head-section__heading{
+  font-size: 35px;
+}
+
+.head-section__description{
+  font-size: 25px;
+}
+
+.fish-type-heading{
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 40px;
+  color: white;
+  filter: var(--shadow);
+    border:
+        7px solid
+        var(--dark-orange);
+    border-radius: 25px;
+     background-color: var(--dark-orange);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 5vh;
+    padding: 1%;
+}
+
+.content-section{
+  text-align: center;
+}
+
+.fish-content__name{
+    font-size: 45px;
+    color: rgb(239, 98, 23);
+}
+
+.fish-content__description{
+    font-size: 25px;
+}
+
+.fish-content_description__level {
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(239, 98, 23)
+}
+
+.fish-content_description__weight {
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(239, 98, 23)
+}
+
+.fish-content_image10{
+    width: 50%;
 }
 
 .item-image,
