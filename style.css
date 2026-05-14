@@ -12,25 +12,38 @@ html {
     font-family: "Pixelify Sans", sans-serif;
 }
 
+.header{
+  font-optical-sizing: auto;
+
+}
+
 .page-title-container {
     filter: var(--shadow);
     border: 7px solid var(--dark-orange);
     border-radius: 25px;
     text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
     font-size: 30px;
     color: var(--dark-orange);
     background-color: var(--light-orange);
-    margin: 2vh 20vw;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 1%;
 }
 
 .nav-container {
     filter: var(--shadow);
     border:
-        7px solid,
+        7px solid
         var(--dark-orange);
     background-color: var(--light-orange);
     border-radius: 25px;
-    margin: 5vh 10vw;
+    font-family: "Pixelify Sans", sans-serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
 }
 
 .nav-list {
@@ -45,7 +58,10 @@ html {
     filter: var(--shadow);
     display: inline-flex;
     background-color: var(--dark-orange);
-    padding: 10px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 10px;
     border: none;
 }
@@ -245,4 +261,79 @@ table {
 .dev-portrait-img {
     width: 150px;
     object-fit: contain;
+}
+
+.fish-content{
+   filter: var(--shadow);
+    border:
+        7px solid
+        var(--dark-orange);
+    border-radius: 25px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 17px;
+    background-color: var(--light-orange);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 5vh;
+    padding: 1%;
+}
+
+.head-section{
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.head-section__heading{
+  font-size: 35px;
+}
+
+.head-section__description{
+  font-size: 25px;
+}
+
+.fish-type-heading{
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 40px;
+  color: white;
+  filter: var(--shadow);
+    border:
+        7px solid
+        var(--dark-orange);
+    border-radius: 25px;
+     background-color: var(--dark-orange);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 5vh;
+    padding: 1%;
+}
+
+.content-section{
+  text-align: center;
+}
+
+.fish-content__name{
+    font-size: 45px;
+    color: rgb(239, 98, 23);
+}
+
+.fish-content__description{
+    font-size: 25px;
+}
+
+.fish-content_description__level {
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(239, 98, 23)
+}
+
+.fish-content_description__weight {
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(239, 98, 23)
+}
+
+.fish-content_image10{
+    width: 50%;
 }
